@@ -1,13 +1,6 @@
-<script lang="ts">
-	let x = 0;
-
-	function onClick() {
-		x = x + 1;
-	}
-</script>
-
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
-
-<button class="p-2 bg-blue-500 text-white rounded-lg" on:click={onClick}>
-	Kliknil si me {x}-krat
-</button>
+<div class="grid justify-items-center gap-5">
+	<h1 class="bg-yellow-200 font-black text-2xl p-5 border-red-300 border-2 rounded-md text-center">
+		Hello world, hello Grace!
+	</h1>
+	<img class="rounded-md w-96" src="art.webp" />
+</div>
