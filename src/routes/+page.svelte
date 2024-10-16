@@ -1,6 +1,15 @@
+<script>
+	let animal = 'Koala';
+	let clicks = 0;
+
+	function newClick() {
+		clicks = clicks + 1;
+	}
+</script>
+
 <div class="flex justify-center">
 	<div class="rounded-xl shadow-md w-8/12 m-10 p-5 bg-teal-100 flex flex-col items-center">
-		<h1 class="text-3xl font-bold">Koale</h1>
+		<h1 class="text-3xl font-bold">Žival: {animal} x {clicks}</h1>
 		<h3 class="text-xl font-bold italic">Phascolarctos cinereus</h3>
 		<img src="koala.jpg" class="w-5/12 p-5" />
 		<p class="py-2">
@@ -27,5 +36,6 @@
 				>Preberi več</button
 			></a
 		>
+		<button on:click={newClick}>Klik</button>
 	</div>
 </div>
