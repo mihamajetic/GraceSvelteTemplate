@@ -70,9 +70,7 @@
 		</button>
 		<button
 			on:click={() => (emojiFilter = !emojiFilter)}
-			class="{emojiFilter
-				? 'bg-green-300 text-white'
-				: 'bg-white text-green-300'} rounded-full p-2 text-white"
+			class="{emojiFilter ? 'bg-green-300 text-white' : 'bg-white text-green-300'} rounded-full p-2"
 		>
 			Emoji filter
 		</button>
